@@ -1,3 +1,27 @@
+# Project Poster Explanation
+
+## Project Overview
+
+This section provides an overview of my project, explaining its main objectives, 
+key features, methodology, and expected outcomes.
+
+## Poster Explanation
+
+The poster presents the overall concept of the project, including the problem 
+statement, proposed solution, system architecture, implementation process, and 
+key contributions.
+
+## Video Demonstration
+
+**Video URL:** https://www.loom.com/share/24026a2598fc4d7daffd7ad32907043a
+## Conclusion
+
+This project demonstrates the proposed approach, its implementation, and its 
+potential applications. The poster and video presentation provide a clear 
+understanding of the project's objectives, technical approach, and outcomes.
+
+------------- Video Section Complete ----------------------
+
 
 Domain-Grounded RAG Architecture for Automated EnterpriseAuthor: Prativa Pyakurel (ID: 77744340)Institution: Department of Computer Science, Leeds Beckett UniversityModule: MSc Advanced Computer Science — Research Practice & DissertationOverviewModern enterprises rely on vast repositories of unstructured internal documents—such as company policies, past project reports, technical capabilities, tender specifications, and candidate CVs—to make rapid operational decisions. While public Large Language Models (LLMs) offer strong reasoning capabilities, transmitting confidential corporate records to external cloud APIs creates severe data-leakage risks, regulatory non-compliance (e.g., GDPR), and unverified hallucinations.This project presents a 100% local, air-gapped Retrieval-Augmented Generation (RAG) architecture operating strictly within an organisation-controlled private computing boundary. It transforms internal documents into a secure, access-controlled knowledge base and pairs hybrid retrieval with local open-source LLMs to deliver verified, cited answers—or honestly abstain when supporting evidence is insufficient.Core Enterprise WorkflowsWhile designed as a general-purpose internal enterprise AI co-pilot, the architecture is validated across two primary operational workflows:Automated Procurement & Bid Compliance Analysis: Evaluates incoming client Requests for Proposals (RFPs) and tender criteria against historical company projects, technical capabilities, and resource records to perform gap analysis and draft grounded bid documentation.Talent Acquisition & Explainable ATS Support: Generates role-specific Job Descriptions (JDs) aligned with internal project stacks, evaluates candidate CVs against job requirements with traceable evidence citations, and generates technical screening questions.Internal Knowledge Q&A: Enables employees and managers to query organisational policies, operational guidelines, and project archives with strict role-based permissions.System ArchitectureThe platform enforces a strict Organisation-Controlled Private Computing Boundary, separating offline knowledge ingestion from online authenticated query execution:flowchart TB
     subgraph BOUNDARY ["ORGANISATION-CONTROLLED PRIVATE COMPUTING BOUNDARY"]
